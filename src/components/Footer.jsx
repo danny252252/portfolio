@@ -5,7 +5,6 @@ function Footer() {
   return (
     <footer>
       <p>Copyright ⓒ {year}</p>
-      <p>runinng figura form left to right</p>
     </footer>
   );
 }

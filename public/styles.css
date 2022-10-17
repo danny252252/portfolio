@@ -1,17 +1,132 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-html{
-    font-family: 'Alkalami', serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-footer{
+html {
+    font-family: 'Silkscreen', cursive;
+}
+
+.about{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto ;
+  font-size: 1.5rem;
+}
+
+.contact{
+  text-align: left;
+  margin: 0 auto;
+  width: 15%;
+
+  
+}
+
+.contact img {
+  height: 16px;
+}
+
+ .header h1{
+  text-align: left;
+  font-size: 9.5rem;
+  margin: 90px 70px;
+  color:#ccd6f6;
+  letter-spacing: -0.7rem;
+}
+
+body {
+  background: linear-gradient(90deg, #03071e, #003049);
+}
+
+footer {
+    display: block;
     width: 100%;
-    position: absolute;  
     text-align: center;
-    bottom: 0;
-    height: 3.5rem; 
+    margin: 10px auto;
 }
+
+
+nav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navpic {
+  height: 52px;
+}
+
+.navpic:hover {
+  opacity: 0.4;
+}
+
+.left-nav-bar li {
+  float: left;
+}
+
+.left-nav-bar a {
+  color: #d3d3d3;
+  font-size: 1.6rem;
+}
+
+.left-nav-bar a span:hover {
+  border-bottom: 3px solid #d3d3d3;
+  color: #006faa91;
+}
+
+.right-nav-bar li {
+  float: right;
+  margin-right: 5px;
+}
+
+.header li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills h3, h2 {
+  width: 80%;
+  margin: 30px;
+  color: #d3d3d3;
+}
+
+hr{
+  border: 0px;
+  border-bottom: 8px dotted;
+  width: 95%;
+  color:#EAF6F6 ;
+  margin: 40px ;
+}
+
+.work img{
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.work h2{
+  color: #d3d3d3;
+  margin: 30px auto;
+  width: 50%;
+}
+
+
