@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    font-family: "Jersey 20", sans-serif;
+    background-color: #000F20
+}
+
+.headerComponent ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headerComponent  li {
+    float: left;
+    font-size: 1.5em;
+    padding: 0 0.3em;
+}
+
+.headerComponent li a {
+  display: block;
+  text-align: center;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.gelb{
+    color: #FFD60A;
+    border-bottom: 0px solid #E0E1DD;
+    transition: 1s;
+}
+
+.white{
+    color: #E0E1DD;
+    border-bottom: 0px solid #FFD60A;
+    transition: 1s;
+}
+
+.white:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+}
+
+.gelb:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+}
