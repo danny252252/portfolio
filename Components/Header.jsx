@@ -1,5 +1,4 @@
 import React from "react";
-import Home from "./Home";
 
 function Header() {
   return (
@@ -11,22 +10,22 @@ function Header() {
           </a>
         </li>
         <li>
-          <a className="white" id="Skills" href="">
+          <a className="white" id="Skills" href="/Skills">
             Skills
           </a>
         </li>
         <li>
-          <a className="gelb" id="work/projects" href="">
+          <a className="gelb" id="work/projects" href="/WorkProjects">
             work/projects
           </a>
         </li>
         <li>
-          <a className="white" id="about" href="">
+          <a className="white" id="about" href="/About">
             about
           </a>
         </li>
         <li>
-          <a className="gelb" id="resume" href="">
+          <a className="gelb" id="resume" href="/Resume">
             resume
           </a>
         </li>
