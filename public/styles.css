@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     font-family: "Jersey 20", sans-serif;
     background-color: #000F20;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* css for Header component nothing extra just some style and a hover for the navbar */
@@ -48,6 +48,27 @@ body {
     padding-bottom: 12px;
 }
 
+.headerComponent .menu_trigger {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .hamb_menu {
+        display: none;
+    }
+
+    .hamb_menu .isOpen {
+        display: block;
+    }
+
+    .headerComponent  .menu_trigger{
+        display: block ;
+        color: #E0E1DD;
+    }
+    
+}
+
+
 /* style for a homepage */
 
 
@@ -90,6 +111,7 @@ body {
     width: 90%;
     height: 80%;
 }
+
 
 /* style for homepage button to contact me  */
 
@@ -223,17 +245,18 @@ body {
     grid-area: 1 / 2 / 3 / 3;
 }
 
-.cv img{
+.cv img {
     height: 85vh;
-    padding: 0 10vh;
+    padding: 0 10px;
 }
 
 .letter button {
     background-color: #EEEF20;
     font-family: "Jersey 20", sans-serif;
     height: 8vh;
-    width: 10vh;
+    width: 12vh;
     font-size: 1em;
+    border-radius: 5%;
 }
 
 .letter button a {
@@ -242,17 +265,100 @@ body {
 }
 
 .floutBtnLeft {
-    position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
 }
 
-.floutBtnRight{
-    position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right: 170px;
+.floutBtnRight {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 170px;
+}
+
+/* contact style */
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+/* .sub {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.sub input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #EEEF20;
+    color: #E0E1DD;
+    padding: 0 10px ;
+    margin: 40px 140px;
+    width: 40vh;
+} */
+
+/* .sub .buttomInput {
+    margin-top: 130px;
+}
+
+::placeholder{
+    color: #E0E1DD;
+}
+
+.sub button {
+    background-color: #EEEF20;
+    margin-left: 70%;
+    width: 120px;
+    height: 50px;
+    border-radius: 30%;
+    cursor: pointer;
+} */
+
+.social {
+    grid-area: 1 / 1 / 3 / 3;;
+    justify-self: center;
+}
+
+.social button {
+    background-color: #EEEF20;
+    margin-left: 30%;
+    width: 120px;
+    height: 50px;
+    border-radius: 30%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social button a {
+    text-decoration: none;
+}
+
+.social h1 {
+    color: #EEEF20;
+    font-size: 4em;
+}
+
+.contactpic img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 6px;
+    background-color: transparent;
+    transition: width 0.5s;
+    transition: height 0.5s;
+}
+
+.contactpic img:hover {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 1px;
+
 }

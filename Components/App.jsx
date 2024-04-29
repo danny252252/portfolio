@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import WrokProject from "./WorkProjects";
 import About from "./About";  
 import Resume from "./Resume";
+import Contact from "./Contact";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path="/About" element={<About />}>
           </Route>
           <Route path="/Resume" element={<Resume />}>
+          </Route>
+          <Route path="/Contact" element={<Contact />}>
           </Route>
         </Routes>
     </div>
