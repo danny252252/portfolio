@@ -24,27 +24,27 @@ function Header() {
         </li>
         <li className={`hamb_menu${isOpen? `_is-open`: ""}`}>
           <a className="gelb" id="work/projects" href="/WorkProjects">
-            work/projects
+            Work/Projects
           </a>
         </li>
         <li className={`hamb_menu${isOpen? `_is-open`: ""}`}>
           <a className="white" id="about" href="/About">
-            about
+            About
           </a>
         </li>
         <li className={`hamb_menu${isOpen? `_is-open`: ""}`}>
           <a className="gelb" id="resume" href="/Resume">
-            resume
+            Resume
           </a>
         </li>
         <li className={`hamb_menu${isOpen? `_is-open`: ""}`}>
           <a className="white" id="contact/info" href="/Contact">
-            contact/info
+            Contact/Info
           </a>
         </li>
         <li onClick={toggleMenu}>
           <a className="menu_trigger">
-            trigger
+            <img src="../img/Hamburger_icon.svg.png"></img>
           </a>
         </li>
         

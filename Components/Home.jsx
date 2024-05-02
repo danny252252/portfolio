@@ -5,12 +5,12 @@ function Home(props) {
     <div className="homepage">
       <div className="h1">
         <h1>
-          Hy i’m Daniel Beck <br />a Web Developer
+          Hy I’m Daniel Beck, <br />a Web Developer
         </h1>
       </div>
       <div>
         <h2 className="h2">
-          About myself. My passion
+          About myself: My passion
           <br /> is coding. I like challenges;
           <br /> mostly if it’s something
           <br /> what I’ve never done before
