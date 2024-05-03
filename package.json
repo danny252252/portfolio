@@ -1,8 +1,9 @@
 {
+  "homepage": "https://danny252252.github.io/portfolio/",
   "name": "dbportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://danny252252.github.io/portfolio/",
+  
   "type": "module",
   "scripts": {
     "dev": "vite",
