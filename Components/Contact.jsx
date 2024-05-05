@@ -53,17 +53,17 @@ function Contact() {
         <h1>Contact me!</h1>
         <ContactPic
           href="https://www.instagram.com/beck.dani/"
-          src="../img/insta.png"
+          src="../assets/img/insta.png"
           alt="instagram"
         />
         <ContactPic
           href="https://linkedin.com/in/daniel-beck-3b0244223"
-          src="../img/linkiden.png"
+          src="../assets/img/linkiden.png"
           alt="linkiden"
         />
         <ContactPic
           href="https://github.com/danny252252?tab=repositories"
-          src="../img/github.png"
+          src="../assets/img/github.png"
           alt="github"
         />
         <button><a href="mailto: danny252252@gmail.com">Send an Email</a></button>

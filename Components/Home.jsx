@@ -24,7 +24,7 @@ function Home(props) {
         </button>
       </div>
       <div className="pict">
-          <img src="../img/myself.jpg" alt="picture from me"></img>
+          <img src="../assets/img/myself.jpg" alt="picture from me"></img>
       </div>
     </div>
   );
