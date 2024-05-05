@@ -13,7 +13,7 @@ function Header() {
     <div className="headerComponent">
       <ul>
         <li className={`hamb_menu${isOpen? `_is-open`: ""}`}> 
-          <a className="gelb" id="home" href="/Home">
+          <a className="gelb" id="home" href="/">
             Home
           </a>
         </li>

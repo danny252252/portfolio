@@ -18,7 +18,7 @@ function Home(props) {
       </div>
       <div className="btn">
       <button className="hpb">
-        <a  href="/home">
+        <a  href="/Contact">
           Contact Me!
         </a>
         </button>

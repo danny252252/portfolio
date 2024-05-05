@@ -57,7 +57,7 @@ function Contact() {
           alt="instagram"
         />
         <ContactPic
-          href="linkedin.com/in/daniel-beck-3b0244223"
+          href="https://linkedin.com/in/daniel-beck-3b0244223"
           src="../img/linkiden.png"
           alt="linkiden"
         />
