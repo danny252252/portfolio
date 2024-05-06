@@ -44,7 +44,7 @@ function Header() {
         </li>
         <li onClick={toggleMenu}>
           <a className="menu_trigger">
-            <img src="../img/Hamburger_icon.svg.png"></img>
+            <img src="../public/img/Hamburger_icon.svg.png"></img>
           </a>
         </li>
         

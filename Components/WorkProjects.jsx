@@ -8,22 +8,22 @@ function WrokProject(props) {
     <div className="workproject">
         <ProjectWindow 
             href=""
-            src="../assets/img/comingSoon.jpg"
+            src="../public/img/comingSoon.jpg"
             alt="raincolor"
         />
         <ProjectWindow 
             href=""
-            src="../assets/img/comingSoon.jpg"
+            src="../public/img/comingSoon.jpg"
             alt="raincolor"
         />
         <ProjectWindow 
             href=""
-            src="../assets/img/comingSoon.jpg"
+            src="../public/img/comingSoon.jpg"
             alt="raincolor"
         />
         <ProjectWindow 
             href=""
-            src="../assets/img/comingSoon.jpg"
+            src="../public/img/comingSoon.jpg"
             alt="raincolor"
         />
     </div>

@@ -16,7 +16,7 @@ function Skills() {
         </p>
       </div>
       <div className="right">
-        <img src="../assets/img/rainColor.png" alt="raincolor"></img>
+        <img src="../public/img/rainColor.png" alt="raincolor"></img>
       </div>
     </div>
   );

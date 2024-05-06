@@ -42,14 +42,14 @@ function Resume() {
           Yours sincerely<br /> Daniel Beck
         </p>
         <button className="floutBtnLeft">
-        <a href="../assets/files/Daniel Beck English-cv.pdf" download>English cv download</a>
+        <a href="../public/files/Daniel Beck English-cv.pdf" download>English cv download</a>
         </button>
         <button className="floutBtnRight">
-        <a href="../assets/files/Daniel Beck Deutsch-cv.pdf" download>Deutsch cv download</a>
+        <a href="../public/files/Daniel Beck Deutsch-cv.pdf" download>Deutsch cv download</a>
         </button>
       </div>
       <div className="cv">
-        <img src="../assets/img/cv.png" alt="my cv">
+        <img src="../public/img/cv.png" alt="my cv">
         </img>
         
 
